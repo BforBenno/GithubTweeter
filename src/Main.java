@@ -77,6 +77,7 @@ public class Main {
         SoExtra soExtra = new SoExtra();
         System.out.println(CYAN_BOLD + soExtra.tweet());
 
+        UberClass.uberMessage("THIS IS A MESSAGE.");
 
     }
 }
