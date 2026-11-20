@@ -77,6 +77,9 @@ public class Main {
         SoExtra soExtra = new SoExtra();
         System.out.println(CYAN_BOLD + soExtra.tweet());
 
+        Tweet tweet = new Tweet();
+        System.out.println(YELLOW_BOLD+tweet.tweet());
+
 
     }
 }
